@@ -75,10 +75,13 @@ header{
 
 /* main section is start from here */
 
-
+main{
+    background-color:#F5F8FF ;
+}
 
 
 /* action section is start */
+
 .action{
   width: 1140px; 
   max-height:328px ; 
@@ -163,7 +166,6 @@ color:#4E47FF;
  .review-section {
     max-width: 1140px;
     height: 350px;
-    border: 1px solid red;
     text-align: center;
     margin:137px auto;
 }
@@ -200,6 +202,49 @@ color:#4E47FF;
 }
 
 /* user review section end  */
+
+
+ /* focus section is start from here */
+.focus-container{
+    width: 1140px;
+    background-color: white;
+    margin: auto;
+    text-align: center;
+    padding: 30px;
+    border-radius: 10px;
+
+}
+.focus-container .focus-tittle{
+    font-family: "Raleway", sans-serif;
+    font-weight: 600;
+    font-size:50px;
+}
+.focus-container .focus-description{
+    color: #000000;
+}
+.focus-button{
+    width: 195px;
+    height: 48px;    
+}
+.focus-container img{
+    vertical-align: bottom;
+    border-radius: 48px;
+    display: block;
+    margin: auto;
+
+}
+
+
+
+.focus-container .focus-tittle, .focus-button ,.focus-image{
+    margin: 24px 0;
+}
+
+
+/* focus section is end */
+
+
+
 
 
 
