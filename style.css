@@ -61,6 +61,7 @@ header{
     color:white;
     font-weight: bold;
     font-family: "Raleway", sans-serif ;
+    border: none;
 }
 .button-primary:hover{
     background-color: violet;
@@ -68,3 +69,40 @@ header{
     cursor: pointer;
 }
 /* selected tag end from here */
+
+
+/* main section is start from here */
+.action{
+  width: 1140px; 
+  max-height:328px ; 
+  border-radius: 48px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin:116px auto 100px;
+  box-shadow: 5px 10px 20px 0.1px gray;
+  
+
+
+}
+.action img{
+    background-repeat: no-repeat;
+    border-radius:48px ;
+
+}
+.action-describe {
+    padding: 0 20px;
+}
+.action-describe p{
+    margin: 23px 0;
+    color: #252432;
+}
+.action-describe h2{
+    font-size: 42px;
+}
+.action-describe .action-button{
+   width: 229px;
+   height:48px ;
+}
+
+/* main section is start from end */
