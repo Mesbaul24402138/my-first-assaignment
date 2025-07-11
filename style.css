@@ -9,10 +9,14 @@
   font-optical-sizing: auto;
   font-style: normal;
 }
+body{
+     background-color:#F5F8FF ;
+}
 
 /* header section is start from here */
 header{
-    height: 100vh;
+    /* height: 100vh; */
+    height: 698px;
     background-image:url("Assets/Hero-bg.png");
     background-repeat: no-repeat;
     background-size: cover;
@@ -24,8 +28,8 @@ header{
     padding: 50px 150px;
 }
 .nav-logo{
-    font-size: 34;
-    font-weight: bold;
+    font-size: 34px;
+    font-weight: 900;
     color: #4E47FF
 }
 .nav-btn{
@@ -44,6 +48,8 @@ header{
 }
 .hero h1{
   margin-bottom:37px ;
+  font-size: 65px;
+  font-weight: bold;
 }
 .hero-btn{
     width:174px ;
@@ -77,9 +83,7 @@ header{
 
 /* main section is start from here */
 
-main{
-    background-color:#F5F8FF ;
-}
+
 
 
 /* action section is start */
@@ -92,7 +96,7 @@ main{
   justify-content: space-between;
   align-items: center;
   margin:116px auto 100px;
-  box-shadow: 5px 10px 20px 0.1px gray;
+
   
 
 
@@ -186,7 +190,8 @@ color:#4E47FF;
 
 } 
 .single-review{
-    padding:24px;
+    padding:24px ;
+    text-align: start;
     border-radius: 14px;
     box-shadow:5px 5px 5px #F2EDED ,-5px -5px 5px #F2EDED ; ;
 }
@@ -196,12 +201,16 @@ color:#4E47FF;
 .user-info{
     margin-top: 10px;
     display: flex;
-    justify-content: center;
+    gap: 10px;
+   
 }
 .user-info .user-img img{
     border-radius: 100%;
 
 
+}
+.user-data p{
+    color:#8987A1;
 }
 
 /* user review section end  */
@@ -294,8 +303,53 @@ font-size:20px ;
 /* touch section is end */
 
 
-
-
-
-
 /* main section is start from end */
+
+
+
+
+
+/* footer section is start */
+footer{
+    text-align: center;
+    height: 428px;
+    width: 100%;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.footer-content{
+    width:525px ;
+    height: 221px;
+    text-align: center;
+    padding:10px;
+    
+    
+}
+.footer-content ul {
+    display: flex;
+    gap:20px;
+    justify-content: center;
+}
+footer .footer-content  ul li{
+    list-style: none;
+
+}
+footer .footer-content ul li a{
+    text-decoration: none;
+    color: #8987A1;
+}
+.footer-content h4{
+    font-size: 100px;
+    font-weight: 900;
+    color: #4E47FF;
+     font-family: "Raleway", sans-serif;
+}
+
+.footer-description{
+    color:#8987A1 ;
+    margin: 10px 0;
+} 
+
+/* footer section is end
